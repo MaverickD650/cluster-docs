@@ -1,6 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto eol=lf
 *.md linguist-detectable linguist-language=MARKDOWN
+*.json linguist-detectable linguist-language=JSON
+*.json5 linguist-detectable linguist-language=JSON5
+*.jsonc linguist-detectable linguist-language=JSONC
 *.toml linguist-detectable linguist-language=TOML
 *.yaml linguist-detectable linguist-language=YAML
 *.yml linguist-detectable linguist-language=YAML
