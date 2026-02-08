@@ -1,4 +1,10 @@
-# Introduction
+---
+title: Home
+description: Documentation for my home Kubernetes cluster powered by Flux and Cluster Template.
+icon: material/home
+---
+
+## Introduction
 
 This site is a revamped version of my orignal documentation site for my home Kubernetes cluster. My cluster has evolved significantly since I first set up the original documentation, and I wanted to create a new site that better reflects the current state of my cluster and provides a more comprehensive and user-friendly experience for readers.
 
