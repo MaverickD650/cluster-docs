@@ -1,0 +1,11 @@
+{
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  gitAuthor: 'mav-bot[bot] <185648356+mav-bot[bot]@users.noreply.github.com>',
+  rebaseWhen: 'conflicted',
+  prHourlyLimit: 0,
+  dependencyDashboardTitle: 'Renovate Dashboard 🤖',
+  suppressNotifications: [
+    'prEditedNotification',
+    'prIgnoreNotification',
+  ]
+}
