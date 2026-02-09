@@ -1,6 +1,14 @@
 {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
-  extends: ["config:recommended"],
+  extends: [
+    'config:recommended',
+    'helpers:pinGitHubActionDigests',
+    ':disableRateLimiting',
+    ':dependencyDashboard',
+    ':semanticCommits',
+    ':timezone(Europe/London)',
+    'github>MaverickD650/cluster-docs//.renovate/semanticCommits.json5',
+  ],
   gitAuthor: 'mav-bot[bot] <185648356+mav-bot[bot]@users.noreply.github.com>',
   rebaseWhen: 'conflicted',
   prHourlyLimit: 0,
