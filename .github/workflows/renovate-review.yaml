@@ -22,10 +22,10 @@ jobs:
       renovate: ${{ steps.filter.outputs.renovate }}
     steps:
       - name: 'Checkout Repository'
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       # For pull requests it's not necessary to checkout the code
       - name: filter
-        uses: dorny/paths-filter@v3
+        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3
         id: filter
         with:
           filters: |
@@ -38,6 +38,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: renovate-config-validator
-        uses: rinchsan/renovate-config-validator@v0.2.0
+        uses: rinchsan/renovate-config-validator@a12a2b98cd4db923c33d1ce407c57afb43f3ff59 # v0.2.0
         with:
           pattern: .renovate.json5
