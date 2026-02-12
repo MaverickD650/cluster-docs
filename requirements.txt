@@ -8,4 +8,4 @@ pymdown-extensions==10.20.1
 PyYAML==6.0.3
 setuptools==82.0.0
 smmap==5.0.2
-zensical==0.0.21
+zensical==0.0.23
