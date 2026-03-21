@@ -3,5 +3,5 @@ _.python.venv = { path = "{{config_root}}/.venv", create = true }
 
 [tools]
 "python" = "3.14.3"
-"pipx" = "1.10.0"
+"pipx" = "1.10.1"
 "pipx:zensical" = "0.0.28"
